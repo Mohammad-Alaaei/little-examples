@@ -1,0 +1,25 @@
+<h2>Authors List</h2>
+<br>
+
+<% if(locals.authors){ %>
+    <table border="1px">
+        <th>ID</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th width="100%"></th>
+        <th>Commands</th>
+
+        <% authors.forEach(itm=> { %>
+            <tr>
+                <td><%= itm.id %></td>
+                <td><%= itm.name %></td>
+                <td><%= itm.age %></td>
+                <td></td>
+                <td>
+                    <a href="#">Delete</a>
+                    <a href="#">Edit</a>
+                </td>
+            </tr>
+        <% }); %>
+    </table>
+<% } %>
