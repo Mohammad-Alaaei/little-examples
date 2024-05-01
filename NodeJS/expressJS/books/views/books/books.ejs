@@ -1,27 +1,58 @@
 <h2>Books List</h2>
 <br>
 
+<form action="/books" method="get">
+    Search:
+    <label for="name">by Name:</label>
+    <input type="text" name="name" id="searchBookName"
+        value="<%= (locals.searchOptions.name!=null)?searchOptions.name:'' %>">
+
+    <label for="author">by Author:</label>
+    <input type="text" name="author" id="searchBookAuthor"
+        value="<%= (locals.searchOptions.author!=null)?searchOptions.author:'' %>">
+
+    <label for="age">by Age:</label>
+    <input type="text" name="age" id="searchBookAge"
+        value="<%= (locals.searchOptions.age!=null)?searchOptions.age:'' %>">
+
+    <button type="submit">search</button>
+</form>
+
+<br>
+
 <% if(locals.books){ %>
+    <a href="/books/new">Add a Book</a>
     <table border="1px">
         <th>ID</th>
         <th>Name</th>
         <th>Author</th>
         <th>Age</th>
         <th width="100%"></th>
-        <th>Commands</th>
+        <th colspan="3">Commands</th>
 
         <% books.forEach(itm=> { %>
             <tr>
-                <td><%= itm.id %></td>
-                <td><%= itm.name %></td>
-                <td><%= itm.author %></td>
-                <td><%= itm.age %></td>
-                <td></td>
                 <td>
-                    <a href="#">Delete</a>
-                    <a href="#">Edit</a>
+                    <%= itm.id %>
                 </td>
+                <td>
+                    <%= itm.name %>
+                </td>
+                <td>
+                    <%= itm.author %>
+                </td>
+                <td>
+                    <%= itm.age %>
+                </td>
+                <td></td>
+
+                <!-- Commands -->
+                <td><a href="#">View</a></td>
+                <td><a href="#">Edit</a></td>
+                <td><a href="#">Delete</a></td>
             </tr>
-        <% }); %>
+            <% }); %>
+
     </table>
-<% } %>
+    <a href="/books/new">Add a Book</a>
+    <% } %>
