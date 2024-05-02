@@ -1,0 +1,64 @@
+<% const bookDetails=(locals.book)?book:[{}]; %>
+<% const bookAuthors=(locals.authors)?authors:[{}]; %>
+
+<% let coverUrl = bookCoverUploadPath + bookDetails.coverImage; %>
+<script>
+    function changeCoverPreview() {
+        const input = document.getElementById('coverImage');
+        const preview = document.getElementById('coverPreview');
+        
+        const file = input.files[0];
+        const reader = new FileReader();
+
+        reader.onload = function(event) {
+            preview.src = event.target.result;
+        }
+
+        if (file) {
+            reader.readAsDataURL(file);
+        } else {
+            preview.src = "#";
+        }
+    }
+</script>
+
+<label for="title">Title:</label><br>
+<input type="text" name="title" id="title" value="<%= bookDetails.title %>"><br>
+
+<label for="description">Description:</label><br>
+<textarea name="description" id="description"><%= bookDetails.description %></textarea><br>
+
+<label for="coverImage">Cover:</label><br>
+<input type="file" name="coverImage" id="coverImage" onchange="changeCoverPreview()"><br>
+<img src="<%= coverUrl %>" id="coverPreview"
+    style="max-width: 150px; max-height: 250px;" alt="cover of the book"><br>
+
+<!-- Get authors list and show them as a list box -->
+<label for="author">Author:</label><br>
+<select name="author" id="author">
+    <% bookAuthors.forEach(author=> { %>
+        <option <%=(author.id==bookDetails.author)?'selected':'' %> value="<%= author.id %>">
+                <%= author.name %>
+        </option>
+        <% }); %>
+</select>
+<br>
+
+<label for="pageCount">Number of Pages:</label><br>
+<input type="number" name="pageCount" id="pageCount" min="1" value="<%= bookDetails.pageCount %>"><br>
+
+<label for="publishDate">Publish Date:</label><br>
+<!--
+    convert something like this:
+        Tue Apr 30 2024 03:30:00 GMT+0330 (Iran Standard Time)
+    to this:
+        2024-04-30T03:30:00
+    then split('T') and pick first section to match date format that input support.
+-->
+<input type="date" name="publishDate" id="publishDate"
+    value="<%= (bookDetails.publishDate != null) ? bookDetails.publishDate.toISOString().split('T')[0] : '' %>">
+<br>
+
+<br><b>Created At: </b><span>
+    <%= bookDetails.createdAt %>
+</span><br>

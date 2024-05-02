@@ -3,17 +3,15 @@
 
 <form action="/books" method="get">
     Search:
-    <label for="name">by Name:</label>
-    <input type="text" name="name" id="searchBookName"
-        value="<%= (locals.searchOptions.name!=null)?searchOptions.name:'' %>">
+    <label for="title">by Name:</label>
+    <input type="text" name="title" id="searchBookTitle"
+        value="<%= (locals.searchOptions.title!=null)?searchOptions.title:'' %>">
 
-    <label for="author">by Author:</label>
-    <input type="text" name="author" id="searchBookAuthor"
-        value="<%= (locals.searchOptions.author!=null)?searchOptions.author:'' %>">
+    <label for="publishedAfter">Published After:</label>
+    <input type="date" name="publishedAfter" id="publishedAfter" value="<%= searchOptions.publishedAfter %>">
 
-    <label for="age">by Age:</label>
-    <input type="text" name="age" id="searchBookAge"
-        value="<%= (locals.searchOptions.age!=null)?searchOptions.age:'' %>">
+    <label for="publishedBefore">Published Before:</label>
+    <input type="date" name="publishedBefore" id="publishedBefore" value="<%= searchOptions.publishedBefore %>">
 
     <button type="submit">search</button>
 </form>
@@ -24,10 +22,12 @@
     <a href="/books/new">Add a Book</a>
     <table border="1px">
         <th>ID</th>
-        <th>Name</th>
+        <th>cover</th>
+        <th>Title</th>
         <th>Author</th>
-        <th>Age</th>
-        <th width="100%"></th>
+        <th>Pages</th>
+        <th>Publish Date</th>
+        <th width="60%"></th>
         <th colspan="3">Commands</th>
 
         <% books.forEach(itm=> { %>
@@ -36,13 +36,19 @@
                     <%= itm.id %>
                 </td>
                 <td>
-                    <%= itm.name %>
+                    <img src="<%= itm.coverImageFullPath %>" alt="book cover for <%= itm.title %>" width="150px" height="250px">
+                </td>
+                <td>
+                    <%= itm.title %>
                 </td>
                 <td>
                     <%= itm.author %>
                 </td>
                 <td>
-                    <%= itm.age %>
+                    <%= itm.pageCount %>
+                </td>
+                <td>
+                    <%= (itm.publishDate)?itm.publishDate.toISOString().split('T')[0]:'' %>
                 </td>
                 <td></td>
 

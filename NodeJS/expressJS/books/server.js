@@ -17,8 +17,8 @@ const app = express();
 
 // Routes
 const indexRouter = require("./routes/index");
-const booksRouter = require("./routes/books");
 const authorsRouter = require("./routes/authors");
+const booksRouter = require("./routes/books");
 
 // Config
 app.set("view engine", "ejs");

@@ -1,14 +1,7 @@
 <h2>New Book</h2>
-<form action="/books" method="post">
-    <label for="name">Name:</label><br>
-    <input type="text" name="name" id="name" value="<%= (locals.book)?book.name:'' %>"><br>
-
-    <label for="author">Author:</label><br>
-    <input type="text" name="author" id="author" value="<%= (locals.book)?book.author:'' %>"><br>
-
-    <label for="age">Age:</label><br>
-    <input type="text" name="age" id="age" value="<%= (locals.book)?book.age:'' %>"><br>
-
+<!-- use Enctype because of uploading image and using Multer module -->
+<form action="/books" method="post" enctype="multipart/form-data">
+    <%- include('_form_fields') %>
     <br>
     <a href="/books">Cancel</a>
     <button type="submit">Add</button>
