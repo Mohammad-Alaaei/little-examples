@@ -1,1 +1,17 @@
 <h2>Home Page</h2>
+
+<% if(locals.books){ %>
+    <% books.forEach(book=>{ %>
+        <a class="bookCard" href="#">
+        <div>
+                <img src="<%= book.coverImageFullPath %>" alt="book cover for <%= book.title %>">
+                <h3>
+                    <%= book.title %>
+                </h3>
+                <span>
+                    <%= book.createdAt.toISOString().split('T')[0] %>
+                </span>
+            </div>
+        </a>
+    <% }) %>
+<% } %>
