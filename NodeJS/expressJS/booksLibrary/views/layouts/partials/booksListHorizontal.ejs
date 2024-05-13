@@ -1,0 +1,34 @@
+<% if(locals.books && locals.books !='' ){ %>
+    <% books.forEach(book=>{ %>
+        <div class="bookCard">
+            <a class="" href="/books/<%= book.id %>">
+                <div>
+                    <img src="<%= book.coverImageFullPath %>" alt="book cover for <%= book.title %>">
+                    <h4>
+                        <%= book.title %>
+                    </h4>
+                    <span>
+                        <%= book.createdAt.toISOString().split('T')[0] %>
+                    </span>
+                </div>
+            </a>
+        </div>
+
+        <% }) %>
+<% }else { %>
+    <div class="bookCard empty">
+        <span>(Nothing to show)</span>
+    </div>
+<% } %>
+
+<!-- Add book section -->
+<% if( locals.allowAdd && locals.allowAdd==true){ %>
+    <div class="bookCard">
+        <form action="/books/new?_method=get" method="post">
+            <div class="addCard">
+                <input type="hidden" name="authorId" id="authorId" value="<%= locals.authorId?authorId:'' %>">
+                <button type="submit">+</button>
+            </div>
+        </form>
+    </div>
+<% } %>

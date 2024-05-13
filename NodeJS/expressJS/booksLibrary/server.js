@@ -12,6 +12,7 @@ const express = require("express");
 const expressLayout = require("express-ejs-layouts");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
+const methodOverride = require("method-override");
 
 const app = express();
 
@@ -34,6 +35,7 @@ db.once("open", () => console.log("Connected to MongoDB"));
 // Middlewares
 app.use(expressLayout);
 app.use(bodyParser.urlencoded({extended:false}));
+app.use(methodOverride('_method'));
 
 app.use("/", indexRouter);
 app.use("/books", booksRouter);

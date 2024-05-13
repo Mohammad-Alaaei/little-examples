@@ -6,6 +6,8 @@ const fs = require('fs');
 const Book = require("../models/book");
 const Author = require("../models/author");
 
+const replaceExp = new RegExp("[^\w\s]", 'g');
+
 // setup requirements for uploading books cover
 const bookCoverUploadPath = path.join('public', Book.coverImagePath);
 const multer = require('multer');
@@ -19,10 +21,10 @@ const upload = multer({
 
 // Loading Books list in async. way
 router.get("/", async (req, res) => {
-    const replaceExp = new RegExp("[?:/\~!@#$%^&*()_+<>;\"'.]", 'g');
 
     let query = Book.find();
 
+    // Search section validation
     if (req.query.title != null && req.query.title != '') {
         req.query.title = req.query.title.replace(replaceExp, "");
         query = query.regex('title', new RegExp(req.query.title, 'i'));
@@ -35,6 +37,8 @@ router.get("/", async (req, res) => {
     if (req.query.publishedBefore != null && req.query.publishedBefore != '') {
         query = query.lte('publishDate', req.query.publishedBefore);
     }
+
+
 
     try {
 
@@ -79,7 +83,7 @@ router.post("/", upload.single('coverImage'), async (req, res) => {
 
         }).catch(() => {
             removeBookCover(book.coverImage);
-            renderNewPage(res, book, "Failed to add the book.");
+            renderNewPage(res, book, { errorMessage: "Failed to add the book." });
             // res.render("books/new", {
             //     book: book,
             //     errorMessage: "Failed to add the book."
@@ -92,8 +96,15 @@ router.get("/new", async (req, res) => {
     // // just for test:
     // const book = await Book.findOne({title: 'test', description: "asdasd", pageCount: 321}); 
     // renderNewPage(res, book);
+    let params = {};
 
-    renderNewPage(res, new Book);
+    if (req.body.authorId) {
+        let id = req.body.authorId;
+        id.replace(replaceExp, "");
+        params = { authorId: id };
+    }
+
+    renderNewPage(res, new Book, params);
 });
 
 router.route("/:id")
@@ -108,8 +119,8 @@ router.route("/:id")
     })
 
 function removeBookCover(fileName) {
-    const coverPath = path.join(bookCoverUploadPath, fileName);
     if (fileName != null && fileName != '') {
+        const coverPath = path.join(bookCoverUploadPath, fileName);
         fs.unlink(coverPath, (err) => {
             if (err) {
                 console.error(`Couln't delete the file ${coverPath}`);
@@ -120,9 +131,10 @@ function removeBookCover(fileName) {
     }
 }
 
-async function renderNewPage(res, book, errorMessage = null) {
+async function renderNewPage(res, book, { authorId, confirmMessage, errorMessage } = {}) {
     try {
-        const authors = await Author.find({});
+        const authorParams = (authorId && authorId != '') ? { _id: authorId } : {};
+        const authors = await Author.find(authorParams);
         const params = {
             book: book,
             bookCoverUploadPath: '/' + Book.coverImagePath.replace('\\', '/') + '/',

@@ -1,0 +1,55 @@
+.bookCard {
+    display: inline-block;
+    width: 160px;
+    height: 300px;
+    text-align: center;
+    margin: 1px;
+    padding: 5px;
+    background: #dfdfdf;
+    vertical-align: top;
+}
+.bookCard.empty{
+    background-color: unset;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.bookCard>a {
+    text-decoration: none;
+    text-decoration-style: none;
+    -moz-text-decoration-style: none;
+}
+
+.bookCard img {
+    max-width: 150px;
+    max-height: 250px;
+}
+
+.bookCard h4 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.bookCard div.addCard {
+    width: 158px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.bookCard div.addCard button{
+    appearance: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    font-size: 70px;
+    font-family: serif;
+}
+.bookCard div.addCard button:hover{
+    background-color: rgb(214, 214, 214);
+}

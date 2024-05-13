@@ -1,3 +1,14 @@
 NodeJS/file_system
 NodeJS/expressJS/movies/node_modules
 NodeJS/expressJS/movies/.env
+
+NodeJS/expressJS/booksLibrary/node_modules
+NodeJS/expressJS/booksLibrary/public/uploads
+NodeJS/expressJS/booksLibrary/.env
+
+NodeJS/expressJS/movies
+
+Python/mikrotik_dns_to_text
+Python/mikrotik_text_to_dns
+Python/simple_DNS_server/venv
+Python/simple_DNS_server/domains.txt

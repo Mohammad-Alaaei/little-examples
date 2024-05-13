@@ -39,9 +39,9 @@
                 <td></td>
 
                 <!-- Commands -->
-                <td><a href="#">View</a></td>
-                <td><a href="#">Edit</a></td>
-                <td><a href="#">Delete</a></td>
+                <td><a href="/authors/<%= itm.id %>">View</a></td>
+                <td><%- include('../layouts/partials/formPut', {url: `/authors/${itm.id}`}) %></td>
+                <td><%- include('../layouts/partials/formDelete', {url: `/authors/${itm.id}`}) %></td>
             </tr>
             <% }); %>
 

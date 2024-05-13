@@ -1,0 +1,16 @@
+<h2>Author info [<%= (locals.author)?author.id:'' %>]:</h2>
+<p><b>Name: </b>
+    <%= locals.author.name %>
+</p>
+<p><b>Age: </b>
+    <%= (locals.author.age)?author.age:'' %>
+</p>
+
+<div>
+    <h3>Books:</h3>
+    <%- include('../layouts/partials/booksListHorizontal',{allowAdd:true, authorId: author.id}); %>
+</div>
+
+<br>
+<%- include('../layouts/partials/formPut', {url: `/authors/${locals.author.id}`}) %>
+<%- include('../layouts/partials/formDelete', {url: `/authors/${locals.author.id}`}) %>
