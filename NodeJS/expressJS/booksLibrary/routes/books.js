@@ -134,10 +134,17 @@ router.route("/:id")
 
             res.redirect('/books?bookDeleted=true');
         } catch (err) {
-            console.log("Something went wrong during Deleting the Book.");
-            console.error(err);
-            res.redirect(`/books?bookDeleted=false`);
-            // viewBookById(req.params.id, res, {errorMessage: err.message});
+            if (book != null) {
+                res.render('books/view', {
+                    book: book,
+                    errorMessage: "Failed to delete the book."
+                });
+            } else {
+                console.log("Something went wrong during Deleting the Book.");
+                console.error(err);
+                res.redirect(`/books?bookDeleted=false`);
+                // viewBookById(req.params.id, res, {errorMessage: err.message});
+            }
         }
     })
 
