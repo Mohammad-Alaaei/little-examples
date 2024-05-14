@@ -1,11 +1,14 @@
 <h2>Books List</h2>
 <br>
 
-<script>
+<!-- <script>
     function clearForm(){
         let searchElements = document.getElementsByTagName('input');
+        for(let element of searchElements){
+            element.setAttribute('value','');
+        }
     }
-</script>
+</script> -->
 
 <form name="searchBox" action="/books" method="get">
     Search:
@@ -20,7 +23,8 @@
     <input type="date" name="publishedBefore" id="publishedBefore" value="<%= searchOptions.publishedBefore %>">
 
     <button type="submit">search</button>
-    <button type="reset" onclick="clearForm()">Clear</button>
+    <!-- <button type="reset" onclick="clearForm()">Clear</button> -->
+    <a href="/books">reset filters</a>
 </form>
 
 <br>
@@ -55,7 +59,7 @@
                     <%= itm.pageCount %>
                 </td>
                 <td>
-                    <%= (itm.publishDate)?itm.publishDate.toISOString().split('T')[0]:'' %>
+                    <%= (itm.publishDate)?itm.shortPublishDate:'' %>
                 </td>
                 <td></td>
 

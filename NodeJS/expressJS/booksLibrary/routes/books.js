@@ -122,7 +122,6 @@ router.get("/new", async (req, res) => {
 router.route("/:id")
     .get(async (req, res) => {
         const book = await Book.findById(req.params.id);
-        console.log(book);
         res.render("books/view", { book })
     })
     .put((req, res) => {

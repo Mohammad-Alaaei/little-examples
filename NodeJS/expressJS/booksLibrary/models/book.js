@@ -42,6 +42,12 @@ bookSchema.virtual('coverImageFullPath').get(function () {
         return path.join('/', coverImagePath, this.coverImage);
     }
 });
+bookSchema.virtual('shortPublishDate').get(function () {
+    return this.publishDate.toISOString().split('T')[0];
+});
+bookSchema.virtual('shortCreateAt').get(function () {
+    return this.createdAt.toISOString().split('T')[0];
+});
 
 // Middleware to automatically populate the author field
 bookSchema.pre('find', async function (next) {
