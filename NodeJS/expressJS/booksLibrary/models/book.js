@@ -39,9 +39,23 @@ const bookSchema = new mongoose.Schema({
 
 bookSchema.virtual('coverImageFullPath').get(function () {
     if (this.coverImage != null) {
-        return path.join('/',coverImagePath,this.coverImage);
+        return path.join('/', coverImagePath, this.coverImage);
     }
-})
+});
+
+// Middleware to automatically populate the author field
+bookSchema.pre('find', async function (next) {
+    this.populate('author', 'name');
+    next();
+});
+
+bookSchema.pre('findOne', async function (next) {
+    this.populate('author', 'name');
+    next();
+});
+
+bookSchema.set('toObject', { virtuals: true });
+bookSchema.set('toJSON', { virtuals: true });
 
 module.exports = mongoose.model("books", bookSchema);
 module.exports.coverImagePath = coverImagePath;

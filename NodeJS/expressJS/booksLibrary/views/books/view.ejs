@@ -1,0 +1,26 @@
+<h2>Book info [<%= (locals.book)?book.id:'' %>]:</h2>
+<p>
+    <img src="<%= book.coverImageFullPath %>" alt="book cover for <%= book.title %>" width="150px" height="250px">
+</p>
+<p><b>Title: </b>
+    <%= locals.book.title %>
+</p>
+<p><b>Description: </b>
+    <%= (locals.book.description)?book.description:'' %>
+</p>
+<p><b>Page Count: </b>
+    <%= (locals.book.pageCount)?book.pageCount:'' %>
+</p>
+<p><b>Author: </b>
+    <%= (locals.book.author)?book.author.name:'' %>
+</p>
+<p><b>Published Date: </b>
+    <%= (locals.book.publishDate)?book.publishDate:'' %>
+</p>
+<p><b>Created At: </b>
+    <%= (locals.book.createdAt)?book.createdAt:'' %>
+</p>
+
+<br>
+<%- include('../layouts/partials/formPut', {url: `/books/${locals.book.id}`}) %>
+<%- include('../layouts/partials/formDelete', {url: `/books/${locals.book.id}`}) %>

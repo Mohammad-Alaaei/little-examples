@@ -1,7 +1,13 @@
 <h2>Books List</h2>
 <br>
 
-<form action="/books" method="get">
+<script>
+    function clearForm(){
+        let searchElements = document.getElementsByTagName('input');
+    }
+</script>
+
+<form name="searchBox" action="/books" method="get">
     Search:
     <label for="title">by Name:</label>
     <input type="text" name="title" id="searchBookTitle"
@@ -14,6 +20,7 @@
     <input type="date" name="publishedBefore" id="publishedBefore" value="<%= searchOptions.publishedBefore %>">
 
     <button type="submit">search</button>
+    <button type="reset" onclick="clearForm()">Clear</button>
 </form>
 
 <br>
@@ -42,7 +49,7 @@
                     <%= itm.title %>
                 </td>
                 <td>
-                    <%= itm.author %>
+                    <%= (itm.author)?itm.author.name:'' %>
                 </td>
                 <td>
                     <%= itm.pageCount %>
@@ -54,11 +61,11 @@
 
                 <!-- Commands -->
                 <td><a href="/books/<%= itm.id %>">View</a></td>
-                <td><a href="#">Edit</a></td>
-                <td><a href="#">Delete</a></td>
+                <td><%- include('../layouts/partials/formPut', {url: `/books/${itm.id}`}) %></td>
+                <td><%- include('../layouts/partials/formDelete', {url: `/books/${itm.id}`}) %></td>
             </tr>
             <% }); %>
 
     </table>
     <a href="/books/new">Add a Book</a>
-    <% } %>
+<% } %>

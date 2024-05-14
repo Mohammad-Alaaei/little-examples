@@ -7,7 +7,7 @@ const author = require("../models/author");
 // Loading authors list in async. way
 router.get("/", async (req, res) => {
     try {
-        const replaceExp = new RegExp("[^\w\s]", 'g');
+        const replaceExp = new RegExp("[^a-zA-Z0-9 ]", 'g');
         let searchOptions = {}
 
         // replace any signs from search queue by Name
@@ -22,7 +22,12 @@ router.get("/", async (req, res) => {
             searchOptions.age = req.query.age;
         }
 
-        const authors = await Author.find(searchOptions);
+        var authors = await Author.find(searchOptions);
+        // Loop through each author and calculate the number of books
+        for (let i = 0; i < authors.length; i++) {
+            const numberOfBooks = await Book.countDocuments({ author: authors[i]._id });
+            authors[i].numberOfBooks = numberOfBooks;
+        }
 
         // check if there is any Query about adding a author from 'Add author' page.
         let confirmMessage = null;
@@ -92,11 +97,11 @@ router.delete("/:id", async (req, res) => {
         console.error(err);
         console.log("Something went wrong during Deleting the author.");
         // res.redirect(`/authors/${req.params.id}?authorDeleted=false`);
-        viewAuthorById(req.params.id, res, {errorMessage: err.message});
+        viewAuthorById(req.params.id, res, { errorMessage: err.message });
     }
 });
 
-async function viewAuthorById(authorId, res, {confirmMessage, errorMessage} ={}) {
+async function viewAuthorById(authorId, res, { confirmMessage, errorMessage } = {}) {
     try {
         const author = await Author.findById(authorId);
         let authorBooks;

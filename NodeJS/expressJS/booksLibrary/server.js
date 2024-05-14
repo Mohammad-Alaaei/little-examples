@@ -36,6 +36,7 @@ db.once("open", () => console.log("Connected to MongoDB"));
 app.use(expressLayout);
 app.use(bodyParser.urlencoded({extended:false}));
 app.use(methodOverride('_method'));
+app.use(express.json());
 
 app.use("/", indexRouter);
 app.use("/books", booksRouter);

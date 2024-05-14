@@ -15,7 +15,7 @@ const authorSchema = new mongoose.Schema({
 // TODO:
 authorSchema.pre('findOneAndDelete', async function (next) {
     try {
-        const book = await Book.find({ author : this._conditions._id});
+        const book = await Book.find({ author: this._conditions._id });
 
         if (book.length > 0) {
             next(new Error(`${book.length} Book(s) found. you can't remove this Author before deleting the Books related to.`));
@@ -26,5 +26,15 @@ authorSchema.pre('findOneAndDelete', async function (next) {
         next(err);
     }
 });
+
+// authorSchema.virtual('numberOfBooks', {
+//     ref: 'Book',
+//     localField: '_id',
+//     foreignField: 'author',
+//     count: true
+// });
+
+authorSchema.set('toObject', { virtuals: true });
+authorSchema.set('toJSON', { virtuals: true });
 
 module.exports = mongoose.model("authors", authorSchema);

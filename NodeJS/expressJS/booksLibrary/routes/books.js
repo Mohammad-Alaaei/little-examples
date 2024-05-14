@@ -6,11 +6,13 @@ const fs = require('fs');
 const Book = require("../models/book");
 const Author = require("../models/author");
 
-const replaceExp = new RegExp("[^\w\s]", 'g');
+const replaceExp = new RegExp("[^a-zA-Z0-9ا-ی ]", 'g');
 
 // setup requirements for uploading books cover
 const bookCoverUploadPath = path.join('public', Book.coverImagePath);
 const multer = require('multer');
+const author = require("../models/author");
+const { default: mongoose } = require("mongoose");
 const imageFileFormats = ['image/jpeg', 'image/png', 'image/bmp'];
 const upload = multer({
     dest: bookCoverUploadPath,
@@ -19,7 +21,7 @@ const upload = multer({
     }
 });
 
-// Loading Books list in async. way
+// Loading Books list in async way
 router.get("/", async (req, res) => {
 
     let query = Book.find();
@@ -38,22 +40,32 @@ router.get("/", async (req, res) => {
         query = query.lte('publishDate', req.query.publishedBefore);
     }
 
-
+    // used to add Author's name from author model to query.
+    // query.populate('author', 'name');
 
     try {
 
         const books = await query.exec();
-        // check if there is any Query about adding a book fro 'Add book' page.
+        // check if there is any Query about adding a book from 'Add book' page.
         const bookAdded = req.query.bookAdded === 'true' ? 'Book added successfully.' : null;
+        const bookDeleted = req.query.bookDeleted === 'true' ? 'Book deleted successfully.' : null;
 
         res.render("./books/books", {
             books: books,
-            confirmMessage: bookAdded,
+            confirmMessage: bookAdded || bookDeleted,
             searchOptions: req.query
         });
 
-    } catch {
+        // for API:
+        // res.json([{
+        //     books: books,
+        //     confirmMessage: bookAdded || bookDeleted,
+        //     searchOptions: req.query
+        // }])
+
+    } catch (err) {
         console.log("Something went wrong during the loading of the Books List. redirecting to home page.");
+        console.error(err.message);
         res.redirect("/");
     }
 });
@@ -108,14 +120,26 @@ router.get("/new", async (req, res) => {
 });
 
 router.route("/:id")
-    .get((req, res) => {
-        res.send(`Book ID: ${req.params.id}`);
+    .get(async (req, res) => {
+        const book = await Book.findById(req.params.id);
+        console.log(book);
+        res.render("books/view", { book })
     })
     .put((req, res) => {
         res.send(`Update Book ID: ${req.params.id}`);
     })
-    .delete((req, res) => {
-        res.send(`Delete Book ID: ${req.params.id}`);
+    .delete(async (req, res) => {
+        let book;
+        try {
+            book = await Book.findByIdAndDelete(req.params.id);
+
+            res.redirect('/books?bookDeleted=true');
+        } catch (err) {
+            console.log("Something went wrong during Deleting the Book.");
+            console.error(err);
+            res.redirect(`/books?bookDeleted=false`);
+            // viewBookById(req.params.id, res, {errorMessage: err.message});
+        }
     })
 
 function removeBookCover(fileName) {
@@ -143,8 +167,9 @@ async function renderNewPage(res, book, { authorId, confirmMessage, errorMessage
 
         if (errorMessage != null && errorMessage != '') params.errorMessage = errorMessage;
         res.render("./books/new", params);
-    } catch {
+    } catch (err) {
         console.log("Something went wrong when fetching book data.");
+        console.error(err.message);
         res.redirect("/books");
     }
 }

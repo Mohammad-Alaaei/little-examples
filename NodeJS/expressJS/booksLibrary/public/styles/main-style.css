@@ -25,6 +25,7 @@
 .bookCard img {
     max-width: 150px;
     max-height: 250px;
+    min-height: 240px;
 }
 
 .bookCard h4 {
