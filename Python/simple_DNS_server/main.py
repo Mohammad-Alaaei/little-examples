@@ -32,7 +32,7 @@ class ManualResolver(BaseResolver):
     def resolve_external_dns(self, request, handler):
         # Implement logic to forward the query to an external DNS resolver
         # For example, using the socket library to send the query to Google's public DNS (8.8.8.8)
-        external_dns_server = ('8.8.8.8', 53)   # feel free to change '8.8.8.8' to whatever external server you want.
+        external_dns_server = ('78.157.42.100', 53)   # feel free to change '8.8.8.8' to whatever external server you want.
         query = request.pack()
         sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         sock.sendto(query, external_dns_server)
@@ -40,7 +40,7 @@ class ManualResolver(BaseResolver):
         return DNSRecord.parse(response)
 
 def main():
-    filename = "example_dns_list.txt"  # File containing domain mappings
+    filename = "domains.txt"  # File containing domain mappings
     resolver = ManualResolver(filename)
 
     # Create a DNS server

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DRF API Data Fetcher</title>
+</head>
+<body>
+    <h1>Data from DRF API</h1>
+    <div id="data-container">
+        <!-- Data will be displayed here -->
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", fetchData);
+
+        async function fetchData() {
+            try {
+                const response = await fetch('https://mva588.pythonanywhere.com/api/v1/homepage/EN/');
+                const data = await response.json();
+                renderData(data);
+            } catch (error) {
+                console.error('Error fetching data:', error);
+            }
+        }
+
+        function renderData(data) {
+            console.log(data);
+            const container = document.getElementById('data-container');
+            container.innerHTML = ''; // Clear previous data
+
+            // if (!Array.isArray(data) || data.length === 0) {
+            //     container.innerHTML = '<p>No data available</p>';
+            //     return;
+            // }
+
+            const list = document.createElement('ul');
+            data[0].forEach(item => {
+                const listItem = document.createElement('li');
+                listItem.textContent = `${item.id}: ${item.name}`; // Assuming 'id' and 'name' fields
+                list.appendChild(listItem);
+            });
+            container.appendChild(list);
+        }
+    </script>
+</body>
+</html>

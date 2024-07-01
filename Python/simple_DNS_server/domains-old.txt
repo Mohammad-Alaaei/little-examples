@@ -1,0 +1,558 @@
+static\.xx\.fbcdn\.net 157.240.241.1 157.240.221.16
+scontent\.xx\.fbcdn\.net 157.240.20.19
+ib\.adnxs\.com 185.89.210.180
+dns\.google 8.8.8.8 8.8.4.4
+one\.one\.one\.one 1.1.1.1 1.0.0.1
+cloudflare-dns\.com 104.16.249.249 104.16.248.249
+web\.facebook\.com 157.240.221.18
+musixmatch\.com 18.66.248.2
+conf\.piojm\.tech 164.90.87.92
+youtubei\.googleapis\.com 142.250.74.202 142.250.186.138 142.250.184.234 172.217.16.202 172.217.18.10 142.250.186.42 142.250.184.202 142.250.186.74 172.217.16.138
+play-fe\.googleapis\.com 142.250.186.78
+graph\.facebook\.com 185.60.216.15
+android\.apis\.google\.com 142.250.186.46
+i\.ytimg\.com 142.250.185.150
+safebrowsing\.googleapis\.com 142.250.180.74
+api\.facebook\.com 157.240.20.15
+https-api\.bigolive\.tv 104.166.188.188
+api\.likee\.video 202.168.102.29
+api\.imotech\.video 164.90.105.98
+beacons\.gvt2\.com 142.250.180.99
+android\.prod\.cloud\.netflix\.com 54.217.35.13
+android-appboot\.netflix\.com 52.215.81.129
+www\.netflix\.com 54.155.178.5
+yt3\.ggpht\.com 142.250.186.161
+redirector\.googlevideo\.com 216.58.212.142
+www\.musixmatch\.com 151.101.194.49
+www\.facebook\.com 157.240.221.35
+s0\.2mdn\.net 216.58.212.166
+td\.telegram\.org 149.154.167.99
+youtube\.com 142.251.143.206 142.251.47.206
+www\.youtube\.com 142.251.143.110 142.251.143.142 142.251.143.174 142.251.143.206
+beacons\.gcp\.gvt2\.com 142.250.180.99
+mcds\.wshareit\.com 114.119.173.233
+profiler-collector\.wshareit\.com 159.138.106.8
+s3-us-west-2\.amazonaws\.com 52.218.233.136
+g\.whatsapp\.net 185.60.216.54
+bstream\.kzhi\.tech 164.90.68.169
+mozilla\.cloudflare-dns\.com 104.16.249.249
+reserve-5a846\.firebaseio\.com 34.120.160.131
+dns\.google\.com 8.8.4.4
+s\.youtube\.com 74.125.133.101
+i2\.ytimg\.com 142.250.186.46
+imo\.im 5.150.156.213
+rcc\.piojm\.tech 104.166.188.188
+b-www\.facebook\.com 157.240.20.35
+twitter\.com 104.244.42.65
+dit\.whatsapp\.net 157.240.27.54
+api\.tmdak\.top 164.90.105.128
+fgw\.imoim\.app 164.90.124.234
+fgwlbs\.imoim\.app 169.136.107.42
+mmg\.whatsapp\.net 157.240.20.52
+bs\.serving-sys\.com 18.185.180.239
+platform\.twitter\.com 93.184.220.66
+videocardz\.disqus\.com 199.232.196.134
+beacons3\.gvt2\.com 172.217.18.99
+beacons2\.gvt2\.com 216.239.36.117
+beacons4\.gvt2\.com 216.239.32.116
+dsp-media\.eskimi\.com 138.199.37.226 138.199.15.193
+dsp-trk\.eskimi\.com 34.120.139.69
+img\.youtube\.com 64.233.164.138
+www\.quora\.com 162.159.153.247
+edge-star-mini-shv-01-ams4\.facebook\.com 157.240.201.35
+vip0x008\.map2\.ssl\.hwcdn\.net 209.197.3.8
+edge-mqtt-shv-01-frx5\.facebook\.com 185.60.216.11
+edge-mqtt-shv-02-lhr8\.facebook\.com 157.240.214.17
+edge-star-mini-shv-01-ams2\.facebook\.com 157.240.247.35
+edge-star-mini-shv-01-mrs2\.facebook\.com 157.240.195.35
+edge-star-mini-shv-01-frt3\.facebook\.com 31.13.92.36
+edge-mqtt-shv-02-frt3\.facebook\.com 157.240.20.10
+edge-mqtt-shv-02-sof1\.facebook\.com 157.240.234.18
+edge-mqtt-shv-01-sof1\.facebook\.com 157.240.9.13
+edge-mqtt-shv-01-lcy1\.facebook\.com 157.240.240.20
+edge-star-mini-shv-02-mrs2\.facebook\.com 157.240.196.35
+speedvpn-859fb\.firebaseio\.com 34.120.160.131
+event\.northghost\.com 54.186.241.125
+suggestqueries-clients6\.youtube\.com 209.85.233.113
+gateway\.instagram\.com 157.240.195.3
+i\.instagram\.com 157.240.253.63
+mqtt-mini\.c10r\.facebook\.com 157.240.253.34
+graph\.instagram\.com 157.240.253.63
+cicd-release-api\.wshareit\.com 114.119.184.157
+rs\.wshareit\.com 34.160.24.27
+gaia-plugin-api\.wshareit\.com 114.119.184.157
+b-graph\.facebook\.com 157.240.195.35
+portal\.fb\.com 157.240.253.13
+cicd-release\.wshareit\.com 34.160.24.27
+lookaside\.facebook\.com 31.13.72.12
+time\.facebook\.com 129.134.28.123
+gateway\.facebook\.com 157.240.252.17
+oculus\.c10r\.facebook\.com 157.240.252.53
+star\.c10r\.facebook\.com 157.240.252.10
+secure\.c10r\.facebook\.com 157.240.252.19
+i1\.ytimg\.com 142.250.185.174
+scontent-cdg4-2\.xx\.fbcdn\.net 157.240.202.1
+scontent-cdg4-1\.xx\.fbcdn\.net 185.60.219.2
+scontent-cdg4-3\.xx\.fbcdn\.net 163.70.128.23
+i4\.ytimg\.com 142.250.181.238
+analytics\.tiktok\.com 95.101.111.158 2.23.209.145
+www\.fb\.com 157.240.9.35
+fb\.com 157.240.20.35
+facebook\.com 157.240.221.35 157.240.0.35
+chat-e2ee-mini\.facebook\.com 157.240.20.33
+api\.imotech\.tech 104.166.188.188
+scontent\.falg7-2\.fna\.fbcdn\.net 41.110.56.82
+scontent\.fixc8-1\.fna\.fbcdn\.net 49.44.235.81
+scontent\.falg2-2\.fna\.fbcdn\.net 168.253.100.81
+player\.twitch\.tv 146.75.118.167
+www\.reddit\.com 151.101.193.140 151.101.65.140 151.101.1.140 151.101.129.140
+alb\.reddit\.com 167.235.239.46
+w3-reporting\.reddit\.com 193.26.157.66
+external-preview\.redd\.it 151.101.193.140 151.101.1.140
+w3-reporting-nel\.reddit\.com 167.235.239.46
+static\.whatsapp\.net 157.240.27.54
+z-p42-chat-e2ee-ig\.facebook\.com 157.240.251.175
+scontent-lga3-1\.xx\.fbcdn\.net 31.13.71.7
+star-mini\.c10r\.facebook\.com 157.240.20.35 157.240.251.35
+e\.*\\\.whatsapp\\\.net 3.33.221.48 15.197.206.217 15.197.210.208 3.33.252.61
+api\.twitter\.com 104.244.42.2
+pbs\.twimg\.com 192.229.233.50
+probe\.twitter\.com 104.244.42.195
+fw\.adsafeprotected\.com 54.76.232.6
+shareit-push-cdn\.wshareit\.com 34.111.192.2
+media-cdg4-2\.cdn\.whatsapp\.net 157.240.202.60
+media-lhr8-1\.cdn\.whatsapp\.net 157.240.221.60
+nc-unit6-mqtt\.nordvpn\.com 34.204.116.194 3.218.169.231
+api-stream\.twitter\.com 104.244.42.131
+api-45-0-0\.twitter\.com 69.195.168.128
+api-20-0-0\.twitter\.com 69.195.186.128
+api-44-0-0\.twitter\.com 69.195.165.128
+api-33-0-0\.twitter\.com 69.195.176.128
+api-43-0-0\.twitter\.com 69.195.177.128
+spade\.sci\.twitch\.tv 34.209.189.184 54.213.133.222
+vs\.wshareit\.com 34.160.157.185
+api\.wshareit\.com 114.119.187.64
+sz-loc\.wshareit\.com 119.8.170.213
+api2\.wshareit\.com 119.8.170.213
+feedback-api\.wshareit\.com 114.119.184.157
+divide\.wshareit\.com 114.119.184.157
+m\.youtube\.com 142.250.185.174
+www\.instagram\.com 157.240.251.174 157.240.227.174 163.70.128.174
+offline-video-cdn\.wshareit\.com 34.149.138.128
+tencent-cdn-test\.wshareit\.com 34.117.3.152
+scontent-fra3-1\.xx\.fbcdn\.net 157.240.252.13
+video\.twimg\.com 192.229.220.133
+api-32-0-0\.twitter\.com 69.195.184.128
+oculus\.xx\.fbcdn\.net 157.240.253.55
+graph-fallback\.instagram\.com 157.240.201.63
+i-fallback\.instagram\.com 157.240.247.63
+scontent-lcy1-1\.xx\.fbcdn\.net 157.240.240.1
+dl\.guitarmusics\.ir 212.33.193.58
+api-21-0-0\.twitter\.com 69.195.166.128
+api-0-4-6\.twitter\.com 209.237.200.128
+api-26-0-0\.twitter\.com 69.195.187.128
+api-39-0-0\.twitter\.com 69.195.175.128
+dc-api\.twitter\.com 104.244.45.3
+api-38-0-0\.twitter\.com 69.195.185.128
+api-40-0-0\.twitter\.com 69.195.181.128
+api-31-0-0\.twitter\.com 69.195.183.128
+api-2-0-0\.twitter\.com 209.237.192.128
+api-0-4-4\.twitter\.com 209.237.199.128
+api-42-0-0\.twitter\.com 69.195.162.128
+api-0-5-0\.twitter\.com 209.237.195.128
+api-34-0-0\.twitter\.com 69.195.178.128
+api-24-0-0\.twitter\.com 69.195.179.128
+api-3-0-0\.twitter\.com 209.237.194.128
+api-0-4-3\.twitter\.com 209.237.198.128
+api-36-0-0\.twitter\.com 69.195.174.128
+api-28-0-0\.twitter\.com 69.195.160.128
+api-30-0-0\.twitter\.com 69.195.180.128
+api-0-4-8\.twitter\.com 209.237.204.128
+api-0-4-7\.twitter\.com 209.237.201.128
+mask\.icloud\.com 17.248.248.116
+plus\.google\.com 142.250.186.46
+doh\.dns\.apple\.com 17.253.14.245
+proxsee\.pscp\.tv 52.32.69.75
+api-0-4-0\.twitter\.com 209.237.196.128
+api-0-4-5\.twitter\.com 209.237.203.128
+api-37-0-0\.twitter\.com 69.195.163.128
+api-46-0-0\.twitter\.com 69.195.169.128
+api-23-0-0\.twitter\.com 69.195.182.128
+caps\.twitter\.com 104.244.42.3
+g-fallback\.whatsapp\.net 185.60.219.61
+www\.salambaba\.com 185.126.202.194
+www\.salambaba\.org 188.114.96.3
+api-0-4-2\.twitter\.com 209.237.197.128
+generationiron\.com 104.26.2.28
+www\.tiktok\.com 2.16.238.25
+tiktok\.com 2.16.238.25
+www\.instyle\.com 151.101.194.137
+scontent-lhr8-2\.xx\.fbcdn\.net 157.240.214.11
+media-cpt1-1\.cdn\.whatsapp\.net 102.132.99.60
+g\.tenor\.com 172.217.23.106
+media-jnb1-1\.cdn\.whatsapp\.net 102.132.100.60
+media-cdg4-3\.cdn\.whatsapp\.net 163.70.128.60
+media-fra3-1\.cdn\.whatsapp\.net 157.240.252.60
+ml314\.com 34.111.234.236
+scontent-mad2-1\.xx\.fbcdn\.net 157.240.5.10
+api\.whatsapp\.com 157.240.9.53
+accounts\.youtube\.com 172.217.18.14
+tr\.snapchat\.com 35.190.43.134
+scontent-lga3-2\.xx\.fbcdn\.net 157.240.241.1
+i\.pinimg\.com 146.75.116.84
+edge-mqtt\.facebook\.com 157.240.252.3
+mqtt-mini\.facebook\.com 157.240.9.32
+mashti\.hamerah\.uk 188.93.237.66
+lbs\.imolive2\.com 164.90.74.36
+socks\.live\.bigo\.sg 164.90.67.2
+b-api\.facebook\.com 157.240.251.35
+scontent\.cdninstagram\.com 157.240.252.63
+socks\.imolive2\.com 164.90.66.244
+6bf5d\.awayne\.today 104.21.58.2
+i3\.ytimg\.com 142.250.185.238
+pixel\.adsafeprotected\.com 52.18.93.34
+nc-unit3-mqtt\.nordvpn\.com 52.87.114.209
+api\.tenor\.com 142.250.185.106
+media\.tenor\.com 142.250.181.234
+media2\.giphy\.com 199.232.198.2
+s1\.wp\.com 192.0.77.32
+fonts-api\.wp\.com 192.0.77.32
+public-api\.wordpress\.com 192.0.78.22
+s0\.wp\.com 192.0.77.32
+abs\.twimg\.com 152.199.21.141
+mua-api\.twitter\.com 44.227.108.193
+wordpress\.com 192.0.78.9
+creativedesigner3d\.files\.wordpress\.com 192.0.72.29
+widgets\.wp\.com 192.0.77.32
+pixel\.wp\.com 192.0.76.3
+r-login\.wordpress\.com 192.0.78.18
+embed\.reddit\.com 202.61.195.218
+stats\.wp\.com 192.0.76.3
+cdn\.shopify\.com 23.227.60.200
+www\.expressvpn\.com 108.156.22.119
+media0\.giphy\.com 199.232.194.2
+media4\.giphy\.com 199.232.194.2
+media3\.giphy\.com 199.232.194.2
+vk\.com 93.186.225.194
+telegram\.digiv2ray\.shop 5.75.208.101
+tamizmtn\.savalanservice\.com 95.179.168.235
+srv1\.parsatonam\.tech 104.24.227.200
+srv2\.parsatonam\.tech 104.24.227.200
+prebid\.a-mo\.net 147.75.84.158
+1x1\.a-mo\.net 18.233.186.18
+mcs-va\.tiktok\.com 96.17.207.87 96.17.207.85
+mcs-va\.tiktok\.com\.edgekey\.net 96.17.207.87 96.17.207.85
+nrdp60-appboot\.netflix\.com 54.154.4.240
+secure\.netflix\.com 45.57.90.1 45.57.91.1
+www\.tunefind\.com 172.66.43.130 172.66.40.126
+opentunnel\.net 188.114.96.3
+www\.cactusvpn\.com 104.26.12.149 104.26.13.149 172.67.71.41
+www\.vpnfreetrial\.org 95.128.203.14
+www\.comparitech\.com 136.243.171.225
+www\.vpnlist\.net 107.6.155.186
+www\.cyberghostvpn\.com 104.20.175.46
+zenvpn\.net 172.67.173.168
+www\.bestvpnserver\.com 172.67.170.164
+q\.quora\.com 52.3.54.184
+cdn\.comparitech\.com 136.243.171.225
+www\.ipvanish\.com 104.18.16.65
+analytics\.twitter\.com 104.244.42.195
+a\.ipvanish\.com 52.21.3.34
+s\.ytimg\.com 142.250.185.174
+bnlspcyj\.v\.zenvpn\.net 185.213.22.54
+images\.taboola\.com 151.101.193.44
+aka-cdn\.adtechus\.com 152.199.21.65
+beacon\.krxd\.net 52.211.18.86
+assets\.cyberghostvpn\.com 104.20.1.14
+dev-assets-cms\.cyberghostvpn\.com 104.20.0.14
+windscribe\.com 104.20.93.59
+protonvpn\.com 185.159.159.140
+top10vpn\.guide 63.32.80.235
+stats\.windscribe\.com 104.20.94.59
+static\.windscribe\.com 104.20.94.59
+garry\.windscribe\.com 104.20.94.59
+www\.urban-vpn\.com 18.155.129.67
+assets\.urban-vpn\.com 143.204.98.30
+analytics\.urban-vpn\.com 148.72.152.76
+download\.urban-vpn\.com 18.165.183.34
+res\.windscribe\.com 104.20.94.59
+ping\.urban-vpn\.com 195.181.175.40
+cdn-cfg\.urban-vpn\.com 52.84.174.117
+stats\.urban-vpn\.com 54.183.170.238
+p-tr3\.urban-vpn\.com 194.61.116.186
+telegram\.org 149.154.167.99
+config\.urban-vpn\.com 13.32.145.124
+p-tr2\.urban-vpn\.com 85.95.244.90
+p-tr1\.urban-vpn\.com 188.213.34.178
+xchange98\.cash 172.67.138.248
+cdn\.pay\.ir 185.255.69.11
+bit\.ly 67.199.248.10
+scontent-fra3-1\.cdninstagram\.com 157.240.252.63
+scontent-fra5-2\.cdninstagram\.com 157.240.253.63
+scontent-fra5-1\.cdninstagram\.com 157.240.251.63
+scontent-vie1-1\.cdninstagram\.com 31.13.84.52
+scontent-fra3-2\.cdninstagram\.com 157.240.0.63
+static\.cdninstagram\.com 157.240.251.63
+vs5\.wshareit\.com 34.149.22.196
+www\.baneh\.com 172.67.187.66
+media-fra3-2\.cdn\.whatsapp\.net 157.240.0.60
+scontent-lga3-2\.cdninstagram\.com 157.240.241.63
+ms\.applovin\.com 188.68.52.244
+d\.applovin\.com 188.68.39.235
+rt\.applovin\.com 89.58.53.205
+a4\.applovin\.com 185.207.107.146
+scontent-lga3-1\.cdninstagram\.com 31.13.71.52
+a\.applovin\.com 34.117.147.68
+scontent-prg1-1\.cdninstagram\.com 157.240.30.63
+c0\.wp\.com 192.0.77.37
+i0\.wp\.com 192.0.77.2
+v0\.wordpress\.com 192.0.78.13
+syndication\.twitter\.com 104.244.42.8
+media1\.giphy\.com 199.232.194.2
+5-144-135-202\.static\.hostiran\.name 5.144.135.202
+scontent-ams2-1\.xx\.fbcdn\.net 157.240.247.8
+instagram\.com 157.240.253.174 157.240.238.174 163.70.128.174 157.240.227.174
+gamerant\.com 3.222.90.168
+native\.yektanet\.com 185.143.234.122
+scontent-bos5-1\.cdninstagram\.com 157.240.245.63
+graph\.whatsapp\.net 157.240.0.60
+l\.instagram\.com 157.240.252.63
+scontent-fra5-2\.xx\.fbcdn\.net 157.240.253.1
+prod\.global\.ssl\.fastly\.net 151.101.1.194
+static-web\.hzmk\.site 104.166.188.190
+scontent-ams4-1\.cdninstagram\.com 157.240.201.63
+scontent-cdg4-2\.cdninstagram\.com 157.240.202.63
+scontent-ams2-1\.cdninstagram\.com 157.240.247.63
+scontent-cdg4-1\.cdninstagram\.com 185.60.219.63
+scontent-lax3-2\.cdninstagram\.com 157.240.11.52
+scontent-lax3-1\.cdninstagram\.com 31.13.70.52
+scontent-nrt1-2\.cdninstagram\.com 157.240.31.63
+scontent-lcy1-1\.cdninstagram\.com 157.240.240.63
+scontent-lcy1-2\.cdninstagram\.com 157.240.232.63
+scontent-fra3-2\.xx\.fbcdn\.net 157.240.0.6
+scontent-fra5-1\.xx\.fbcdn\.net 157.240.251.9
+scontent-ber1-1\.xx\.fbcdn\.net 185.60.217.28
+scontent-ber1-1\.cdninstagram\.com 185.60.217.63
+maps\.instagram\.com 157.240.252.63
+cdn\.syndication\.twimg\.com 192.229.233.50
+secure\.twitch\.tv 146.75.118.167
+api-1-0-0\.twitter\.com 209.237.193.128
+instagram\.fabb1-1\.fna\.fbcdn\.net 197.210.92.35
+scontent-lcy1-2\.xx\.fbcdn\.net 157.240.232.1
+cinema\.king-royal-buzz\.homes 15.236.18.11
+www\.ircellsertvices-nicdom\.beauty 18.117.184.214
+www\.blackfriday\.yachts 13.232.103.20
+irbebsx\.dynu\.com 13.235.58.114
+www\.antiwhite\.itemdb\.com 159.223.229.134
+an\.facebook\.com 157.240.251.6
+scontent-yyz1-1\.cdninstagram\.com 31.13.80.52
+scontent-atl3-2\.cdninstagram\.com 31.13.88.63
+mmx-ds\.cdn\.whatsapp\.net 157.240.251.60
+scontent-mia3-1\.cdninstagram\.com 31.13.67.63
+5afb0\.awayne\.cloud 172.67.134.2
+df787\.awayne\.cloud 104.21.25.103
+ca51e\.awayne\.cloud 104.21.25.103
+b3cd0\.awayne\.cloud 172.67.134.2
+crashlogs\.whatsapp\.net 157.240.252.60
+web-fallback\.facebook\.com 157.240.247.13
+video\.cdninstagram\.com 157.240.253.63
+tours\.specia1\.com 18.239.94.44
+scontent-prg1-1\.xx\.fbcdn\.net 157.240.30.27
+www\.scribd\.com 151.101.194.152
+timesofindia\.indiatimes\.com 104.102.44.119
+ase\.clmbtech\.com 23.38.98.214
+ap-gew4\.spotify\.com 50.7.85.219
+api-partner\.spotify\.com 50.7.87.84
+dealer\.spotify\.com 50.7.85.220
+gew4-dealer\.spotify\.com 107.150.34.101
+login5\.spotify\.com 50.7.85.222
+exp\.wg\.spotify\.com 5.9.210.78 5.9.210.77
+ap-gew1\.spotify\.com 50.7.87.84
+adeventtrackermonitoring\.spotify\.com 50.7.85.222
+ap-gue1\.spotify\.com 50.7.87.84
+scontent-ord5-1\.cdninstagram\.com 157.240.249.63
+scontent-ord5-2\.cdninstagram\.com 157.240.254.63
+onesignal\.com 63.141.252.206
+www\.onesignal\.com 104.18.214.59
+userstylesapi\.com 44.237.38.229 52.10.244.161
+edgedl\.me\.gvt1\.com 5.9.210.75 5.9.210.68
+v\.whatsapp\.net 157.240.0.60
+secure-ds\.serving-sys\.com 95.101.54.243
+www\.giantbomb\.com 199.232.208.194
+pixel\.anyclip\.com 34.199.3.210
+twistedmetal\.fandom\.com 199.232.212.194
+services\.fandom\.com 199.232.212.194
+www\.twitch\.tv 146.75.122.167
+scontent-cdg4-3\.cdninstagram\.com 163.70.128.63
+api\.deezer\.com 95.101.111.159
+static\.adsafeprotected\.com 13.225.78.104
+3e9f9\.awayne\.cloud 172.67.134.2
+scontent-lis1-1\.cdninstagram\.com 157.240.212.63
+sonar\.fjog6-1\.fna\.fbcdn\.net 103.87.148.222
+sonar6\.fbgw9-2\.fna\.fbcdn\.net 5.62.128.94
+sonar\.fios4-1\.fna\.fbcdn\.net 138.117.178.158
+sonar6\.fjog6-1\.fna\.fbcdn\.net 103.87.148.222
+sonar\.fers5-1\.fna\.fbcdn\.net 196.20.0.223
+sonar\.fzty3-2\.fna\.fbcdn\.net 129.134.160.31
+wa\.tenor\.co 142.250.186.106
+sonar\.fbgw20-1\.fna\.fbcdn\.net 185.143.42.94
+sonar\.fmex14-1\.fna\.fbcdn\.net 201.157.30.222
+sonar\.fbgw9-2\.fna\.fbcdn\.net 5.62.128.94
+sonar\.fsea1-1\.fna\.fbcdn\.net 157.240.169.159
+sonar\.fcmh1-1\.fna\.fbcdn\.net 65.60.171.94
+sonar\.fvdc7-1\.fna\.fbcdn\.net 128.201.183.222
+sonar6\.fbgw20-1\.fna\.fbcdn\.net 185.143.42.94
+sonar\.faep28-1\.fna\.fbcdn\.net 179.40.130.158
+sonar\.fdac150-1\.fna\.fbcdn\.net 123.136.31.223
+sonar\.fntr4-1\.fna\.fbcdn\.net 189.206.246.30
+scontent-ams4-1\.xx\.fbcdn\.net 157.240.201.15
+media\.tenor\.co 142.250.185.170
+graph\.whatsapp\.com 157.240.253.60
+scontent-lhr8-1\.cdninstagram\.com 157.240.221.63
+external-cdg4-2\.xx\.fbcdn\.net 157.240.202.1
+sdk\.appbrain\.com 172.66.40.217
+reddit\.com 151.101.193.140 151.101.65.140 151.101.1.140 151.101.129.140 193.26.157.66
+edge-oculus-shv-01-ist1\.fbcdn\.net 157.240.238.54
+w\.soundcloud\.com 52.222.139.85
+m\.facebook\.com 157.240.251.35
+scontent-iev1-1\.cdninstagram\.com 157.240.224.63
+instagram\.fevn6-4\.fna\.fbcdn\.net 178.160.243.99
+snaptu-z\.facebook\.com 157.240.252.32
+scontent-mxp1-1\.cdninstagram\.com 31.13.86.52
+scontent-mxp2-1\.cdninstagram\.com 157.240.203.63
+www\.myinstants\.com 172.67.70.41
+instagram\.fmci2-1\.fna\.fbcdn\.net 129.134.147.163
+scontent-dub4-1\.cdninstagram\.com 31.13.73.63
+scontent-mia3-2\.cdninstagram\.com 157.240.14.63
+scontent-waw1-1\.cdninstagram\.com 31.13.81.52
+attachments\.clickup\.com 50.7.87.83
+content\.webproduct\.clickup\.com 50.7.87.82
+attachments2\.clickup\.com 50.7.85.220
+scontent-iad3-1\.cdninstagram\.com 31.13.66.63
+scontent-lhr8-2\.cdninstagram\.com 157.240.214.63
+adsmetadata\.startappservice\.com 129.150.61.133
+scontent-otp1-1\.cdninstagram\.com 185.60.218.52
+external-fra3-1\.xx\.fbcdn\.net 157.240.252.13
+external-muc2-1\.xx\.fbcdn\.net 157.240.223.15
+scontent-dfw5-2\.cdninstagram\.com 31.13.93.63
+iran\.aloblog\.trickip\.net 95.216.253.213
+full-vasl\.co\.uk\.font-parsi\.ir 172.232.45.238
+www\.rubika\.ir\.web-rubika\.info 159.69.164.129
+a1\.proxy-iran\.fun 95.217.26.123
+a2\.proxy-iran\.fun 95.217.26.123
+editorial\.rottentomatoes\.com 95.101.47.33
+www\.rottentomatoes\.com 104.73.227.73
+shahnameferdowsi\.sorenastore\.website 135.181.38.66
+scontent-iad3-2\.cdninstagram\.com 157.240.229.63
+dts\.ushareit\.com 3.222.179.23
+cdn\.ushareit\.com 34.120.98.157
+dt\.adsafeprotected\.com 54.187.15.246
+ae01\.alicdn\.com 163.181.92.173
+iran\.sadatnews\.lflinkup\.org 95.216.253.213
+studio\.youtube\.com 142.250.185.174
+scontent-syd2-1\.cdninstagram\.com 157.240.8.52
+scontent-bru2-1\.xx\.fbcdn\.net 179.60.195.12
+scontent-cph2-1\.cdninstagram\.com 157.240.200.63
+external\.xx\.fbcdn\.net 157.240.251.9
+scontent-bru2-1\.cdninstagram\.com 179.60.195.52
+account\.adobe\.com 143.204.215.96 143.204.215.101 143.204.215.29 143.204.215.59
+www\.adobe\.com 89.58.55.193 89.58.52.160 185.207.107.146 89.58.39.163 193.26.157.66 89.58.55.33 89.58.53.205 89.58.57.45 202.61.195.218 45.157.177.108 188.68.39.235
+cai-identity\.adobe\.io 23.22.254.206 52.202.204.11 54.227.187.23 52.5.13.197
+cc-cdn\.adobe\.com 50.7.87.85
+cctypekit\.adobe\.io 34.193.227.236 107.22.247.231 18.207.85.246 150.7.85.218 54.144.73.197 150.7.87.84
+ims-prod06\.adobelogin\.com 63.141.252.202 63.141.252.203
+platform-cs\.adobe\.io 50.7.87.83
+scss\.adobesc\.com 54.194.243.238 54.195.71.107 34.250.67.152
+adobesearch\.adobe\.io 34.250.67.152 50.7.85.218 54.195.71.107 54.194.243.238 50.7.87.86
+genuine\.adobe\.com 50.7.87.82
+firefly-ps\.adobe\.io 50.7.87.85
+23ynjitwt5\.adobe\.io 50.7.85.219
+platform-cs-va6\.adobe\.io 50.7.87.82 50.7.87.84
+udps\.adobe\.com 50.7.87.83 50.7.85.220
+crs\.cr\.adobe\.com 50.7.85.219 50.7.85.220
+cc-api-data\.adobe\.io 50.7.85.220 50.7.85.219
+cc-api-data-stage\.adobe\.io 50.7.85.219 50.7.85.221
+login\.live\.com 50.7.85.220 50.7.85.221 40.126.32.72 40.126.32.133 40.126.32.68 20.190.160.17 40.126.32.76 40.126.32.134 40.126.32.136 20.190.160.22
+p\.typekit\.net 50.7.85.218
+use\.typekit\.net 50.7.85.219
+info\.startappservice\.com 68.232.34.193
+apresolve\.spotify\.com 5.9.210.66
+i\.scdn\.co 50.7.85.218
+google\.ru 142.250.186.67
+elevenlabs\.io 50.7.85.218
+platform\.harvestapp\.com 50.7.85.222
+harvestapp\.com 50.7.87.82
+indy\.chimeratiger\.com 63.141.252.205
+open\.spotifycdn\.com 5.9.210.76
+open\.spotify\.com 5.9.210.74
+twitch\.tv 151.101.66.167 151.101.2.167 151.101.194.167 151.101.130.167
+clickup\.com 18.66.112.125 18.66.112.92 18.66.112.66 18.66.112.90
+app\.clickup\.com 34.249.221.171 52.49.7.5 54.246.149.135
+prod-mediate-events\.applovin\.com 34.102.162.219
+data\.riotgames\.com 74.91.29.202
+authenticate\.riotgames\.com 104.16.206.131 104.16.207.131
+riot-geo\.pas\.si\.riotgames\.com 50.7.85.218
+auth\.riotgames\.com 50.7.85.218
+clientconfig\.rpg\.riotgames\.com 104.18.157.37 104.18.156.37
+entitlements\.auth\.riotgames\.com 50.7.87.83
+euc\.pp\.sgp\.riotgames\.com 104.18.6.126 104.18.7.126
+oxygennotincluded\.fandom\.com 199.232.208.194 199.232.212.194
+valorant\.secure\.dyn\.riotcdn\.net 2.22.242.96 2.22.242.137 104.124.11.48 104.124.11.11 104.124.11.18 104.124.11.41 88.221.110.67 104.124.11.59 2.22.242.130 2.19.126.73 104.124.11.19 104.124.11.16 104.124.11.49 2.22.242.146 2.22.242.80 2.22.242.227 2.22.242.225 2.19.126.86 185.200.232.49 185.200.232.43 2.19.11.14 88.221.110.114 2.19.126.76 104.124.11.27 104.124.11.65 2.22.242.139 104.124.11.34 2.22.242.98 2.19.126.152 2.19.126.147 198.41.0.4
+shopify\.com 23.227.38.33
+accounts\.shopify\.com 185.146.173.20
+admin\.shopify\.com 23.227.38.33
+www\.shopify\.com 23.227.38.33
+oxygennotincluded-archive\.fandom\.com 199.232.208.194 199.232.212.194
+graphql\.instagram\.com 157.240.202.63
+scontent-lhr8-1\.xx\.fbcdn\.net 157.240.221.16
+scontent-man2-1\.xx\.fbcdn\.net 157.240.225.3
+bitbucket\.org 104.192.141.1
+atl-onetrust-wrapper\.atlassian\.com 18.172.112.13 18.172.112.23 18.172.112.101 18.172.112.34
+id\.atlassian\.com 18.238.243.121 18.238.243.36 18.238.243.42 18.238.243.67
+encore\.scdn\.co 82.178.158.24
+api\.spotify\.com 5.9.210.78 5.9.210.70
+8888\.google 8.8.8.8 8.8.4.4
+xpui\.app\.spotify\.com 5.9.210.70
+clienttoken\.spotify\.com 107.150.34.100
+pixel\.spotify\.com 5.9.210.76 107.150.34.99 5.9.210.68
+itch\.io 173.255.250.29
+whatsapp\.net 163.70.128.60
+whatsapp\.com 163.70.128.60
+www\.whatsapp\.com 163.70.128.60
+www\.gstatic\.com 172.217.17.67
+www\.spotify\.com 107.150.34.100
+www\.google-analytics\.com 172.217.19.174
+en\.bandainamcoent\.eu 18.239.69.75 18.239.69.22 18.239.69.77 18.239.69.5
+awsdns-hostmaster\.amazon\.com 204.12.192.222
+ipinfo\.io 5.9.210.67
+securetoken\.googleapis\.com 216.58.204.138 216.58.204.234 216.58.205.42 142.250.180.138 142.250.180.170 142.251.209.10 142.251.209.42 216.58.209.42
+img\.strpst\.com 104.17.10.106 104.17.11.106
+videos\.tube8zoo\.com 143.202.153.88 143.202.153.8
+en\.luxuretv\.com 104.23.139.26 104.23.138.26 104.23.137.26 104.23.140.26 104.23.141.26
+cherry\.tv 104.18.132.42 104.18.133.42
+edge-star-mini-shv-01-mxp1\.facebook\.com 31.13.86.36
+gateway\.*\\\.discord\\\.gg 162.159.130.234 162.159.134.234 162.159.136.234 162.159.135.234 162.159.133.234
+android-safebrowsing\.google\.com 216.58.204.142
+coddy\.tech 138.201.204.218
+in\.appcenter\.ms 4.152.45.235
+scontent-otp1-1\.xx\.fbcdn\.net 185.60.218.24
+encrypted-tbn3\.gstatic\.com 142.251.208.142
+scontent-mxp1-1\.xx\.fbcdn\.net 31.13.86.4
+identitytoolkit\.googleapis\.com 216.58.204.234 216.58.205.42 142.250.180.138 142.250.180.170 142.251.209.10 142.251.209.42 216.58.204.138
+firebase\.googleapis\.com 142.250.180.170 142.251.209.10 142.251.209.42 216.58.204.138 216.58.204.234 216.58.205.42 142.250.180.138
+prison-architect\.fandom\.com 199.232.208.194 199.232.212.194
+live\.predecessor\.omeda\.pragmaengine\.com 35.244.161.179
+ekg\.riotgames\.com 18.236.36.226 54.201.140.17 52.33.139.92 35.167.233.37 54.189.138.3 54.187.210.60 54.187.205.92 44.238.25.15
+eu\.vg\.ac\.pvp\.net 172.64.146.88 104.18.41.168
+feapp\.euw1\.lol\.pvp\.net 3.75.138.119 3.74.145.219
+legacy\.lolesports\.com 65.9.95.113 65.9.95.54 65.9.95.39 65.9.95.47
+30namachi43\.top 188.114.97.0 188.114.96.0
+api\.ad\.intl\.xiaomi\.com 8.222.156.94 8.222.156.181 8.222.157.106 8.222.157.135 8.222.157.168 8.222.157.197 8.222.158.12 8.222.158.14 8.222.158.71 8.222.158.118 8.222.158.123 8.219.6.117 8.219.7.83 8.219.49.19 8.219.57.66 8.219.61.138 8.219.65.63 8.219.66.154 8.222.158.152 8.222.158.182
+discord\.gg 162.159.134.234 162.159.136.234 162.159.135.234 162.159.130.234 162.159.133.234
+api\.onesignal\.com 104.16.160.145 104.17.111.223
+www\.fandom\.com 199.232.208.194 199.232.212.194
+firestore\.googleapis\.com 142.250.180.106
+chaturbate\.com 104.18.101.40 104.18.100.40
+thumb\.luxuretv\.com 104.23.137.26 104.23.138.26 104.23.139.26 104.23.140.26 104.23.141.26
+scontent-yyz1-1\.xx\.fbcdn\.net 31.13.80.12
+scontent-den2-1\.xx\.fbcdn\.net 57.144.104.128
